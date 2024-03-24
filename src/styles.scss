@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+$theme-colors: (
+    "primary": #67AC5B,
+    "secondary": #F2A03D,
+    "btn-color": white
+);
+
+.master_background {
+  background-color:
+#67AC5B;
+}
+.container {
+    margin-bottom: 50px;
+    margin-left: 300px;
+    margin-right: 0;
+  }
+
+button {
+    margin-left: 0;
+  }
+@import "node_modules/bootstrap/scss/bootstrap.scss"
+
